@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_87b55a1e1f0027aad9cf15ba297244ef {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_87b55a1e1f0027aad9cf15ba297244ef" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_87b55a1e1f0027aad9cf15ba297244ef = L.map(
+                "map_87b55a1e1f0027aad9cf15ba297244ef",
+                {
+                    center: [14.6, -90.9],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0bead6cc2a2d83f7bc33e21e7b66936e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0bead6cc2a2d83f7bc33e21e7b66936e.addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+            var circle_marker_ff4207c4f4b99760f9f04c56f4729d67 = L.circleMarker(
+                [14.4789, -90.6061],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_c884e5591cff563117399d0e18cbd35c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76ce4853392b35567e7a96343e773826 = $(`<div id="html_76ce4853392b35567e7a96343e773826" style="width: 100.0%; height: 100.0%;">Amatitlan - 2024-02-28 - Índice: 61.59</div>`)[0];
+                popup_c884e5591cff563117399d0e18cbd35c.setContent(html_76ce4853392b35567e7a96343e773826);
+            
+        
+
+        circle_marker_ff4207c4f4b99760f9f04c56f4729d67.bindPopup(popup_c884e5591cff563117399d0e18cbd35c)
+        ;
+
+        
+    
+    
+            var circle_marker_5f25db3836c10ad37e6ac6c746607ca2 = L.circleMarker(
+                [14.4789, -90.6061],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_d7c68db0305cffad825c099ff0bbe232 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a428e9e836822ba6f1d72788c43f89a6 = $(`<div id="html_a428e9e836822ba6f1d72788c43f89a6" style="width: 100.0%; height: 100.0%;">Amatitlan - 2024-03-04 - Índice: 132.48</div>`)[0];
+                popup_d7c68db0305cffad825c099ff0bbe232.setContent(html_a428e9e836822ba6f1d72788c43f89a6);
+            
+        
+
+        circle_marker_5f25db3836c10ad37e6ac6c746607ca2.bindPopup(popup_d7c68db0305cffad825c099ff0bbe232)
+        ;
+
+        
+    
+    
+            var circle_marker_e521e1d23903198b1ff2d9cb0989c35d = L.circleMarker(
+                [14.4789, -90.6061],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_1e69a1df7feec8dd61d8fa265956ba69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0659a172c82bd62cf952abba12cdbda = $(`<div id="html_b0659a172c82bd62cf952abba12cdbda" style="width: 100.0%; height: 100.0%;">Amatitlan - 2024-03-29 - Índice: 67.94</div>`)[0];
+                popup_1e69a1df7feec8dd61d8fa265956ba69.setContent(html_b0659a172c82bd62cf952abba12cdbda);
+            
+        
+
+        circle_marker_e521e1d23903198b1ff2d9cb0989c35d.bindPopup(popup_1e69a1df7feec8dd61d8fa265956ba69)
+        ;
+
+        
+    
+    
+            var circle_marker_80f72f021ad695c84fce09a4a672181f = L.circleMarker(
+                [14.4789, -90.6061],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_707cf45cb96d5cb4da523f00bba0b125 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9ed153c09a6af495bd6e6b02e9127ef = $(`<div id="html_f9ed153c09a6af495bd6e6b02e9127ef" style="width: 100.0%; height: 100.0%;">Amatitlan - 2024-04-03 - Índice: 127.81</div>`)[0];
+                popup_707cf45cb96d5cb4da523f00bba0b125.setContent(html_f9ed153c09a6af495bd6e6b02e9127ef);
+            
+        
+
+        circle_marker_80f72f021ad695c84fce09a4a672181f.bindPopup(popup_707cf45cb96d5cb4da523f00bba0b125)
+        ;
+
+        
+    
+    
+            var circle_marker_97d849722c2607115c234cb4df4a56b3 = L.circleMarker(
+                [14.4789, -90.6061],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_88a9b55d7da4bb5b22d250fc787ad981 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4bc8f834d905d35f522a29ba760d6de = $(`<div id="html_f4bc8f834d905d35f522a29ba760d6de" style="width: 100.0%; height: 100.0%;">Amatitlan - 2024-04-18 - Índice: 144.64</div>`)[0];
+                popup_88a9b55d7da4bb5b22d250fc787ad981.setContent(html_f4bc8f834d905d35f522a29ba760d6de);
+            
+        
+
+        circle_marker_97d849722c2607115c234cb4df4a56b3.bindPopup(popup_88a9b55d7da4bb5b22d250fc787ad981)
+        ;
+
+        
+    
+    
+            var circle_marker_552876c9f366d79e162d5e994b9beb09 = L.circleMarker(
+                [14.4789, -90.6061],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_b00c5853fcfb1f6dcdecd504b0720e1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffb9aefb1bb3c8e33e444cd37da325ff = $(`<div id="html_ffb9aefb1bb3c8e33e444cd37da325ff" style="width: 100.0%; height: 100.0%;">Amatitlan - 2024-05-08 - Índice: 113.28</div>`)[0];
+                popup_b00c5853fcfb1f6dcdecd504b0720e1e.setContent(html_ffb9aefb1bb3c8e33e444cd37da325ff);
+            
+        
+
+        circle_marker_552876c9f366d79e162d5e994b9beb09.bindPopup(popup_b00c5853fcfb1f6dcdecd504b0720e1e)
+        ;
+
+        
+    
+    
+            var circle_marker_4f358eff6784adb481e983069f119a6a = L.circleMarker(
+                [14.4789, -90.6061],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_1ba5f9fdba773127e4ca124557ad173d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c749d3e15e955510360bc2f6a2f26a2e = $(`<div id="html_c749d3e15e955510360bc2f6a2f26a2e" style="width: 100.0%; height: 100.0%;">Amatitlan - 2024-05-28 - Índice: 118.72</div>`)[0];
+                popup_1ba5f9fdba773127e4ca124557ad173d.setContent(html_c749d3e15e955510360bc2f6a2f26a2e);
+            
+        
+
+        circle_marker_4f358eff6784adb481e983069f119a6a.bindPopup(popup_1ba5f9fdba773127e4ca124557ad173d)
+        ;
+
+        
+    
+    
+            var circle_marker_c566747db249a48c772d34ad5ceef4f8 = L.circleMarker(
+                [14.4789, -90.6061],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_e0d2aa85dc78d3e4d039a2848f9acef3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c231010d72c597a3f19fa3574227dd5f = $(`<div id="html_c231010d72c597a3f19fa3574227dd5f" style="width: 100.0%; height: 100.0%;">Amatitlan - 2024-06-02 - Índice: 75.29</div>`)[0];
+                popup_e0d2aa85dc78d3e4d039a2848f9acef3.setContent(html_c231010d72c597a3f19fa3574227dd5f);
+            
+        
+
+        circle_marker_c566747db249a48c772d34ad5ceef4f8.bindPopup(popup_e0d2aa85dc78d3e4d039a2848f9acef3)
+        ;
+
+        
+    
+    
+            var circle_marker_c53305ce8ad52ac64d86ebf424447c14 = L.circleMarker(
+                [14.4789, -90.6061],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_37580154ff0293b99dbee553e67736c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20d81385d3e24c66242f1dc414001a32 = $(`<div id="html_20d81385d3e24c66242f1dc414001a32" style="width: 100.0%; height: 100.0%;">Amatitlan - 2024-06-27 - Índice: 97.09</div>`)[0];
+                popup_37580154ff0293b99dbee553e67736c9.setContent(html_20d81385d3e24c66242f1dc414001a32);
+            
+        
+
+        circle_marker_c53305ce8ad52ac64d86ebf424447c14.bindPopup(popup_37580154ff0293b99dbee553e67736c9)
+        ;
+
+        
+    
+    
+            var circle_marker_8db2c332ef5f8c455b5e1f6d6ccaff57 = L.circleMarker(
+                [14.69, -91.2],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_a504fb3b28e7712bb618c51a78b216e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_917f255ea1d2f06e7dcb2326b20e9d1c = $(`<div id="html_917f255ea1d2f06e7dcb2326b20e9d1c" style="width: 100.0%; height: 100.0%;">Atitlan - 2024-01-09 - Índice: 31.85</div>`)[0];
+                popup_a504fb3b28e7712bb618c51a78b216e6.setContent(html_917f255ea1d2f06e7dcb2326b20e9d1c);
+            
+        
+
+        circle_marker_8db2c332ef5f8c455b5e1f6d6ccaff57.bindPopup(popup_a504fb3b28e7712bb618c51a78b216e6)
+        ;
+
+        
+    
+    
+            var circle_marker_d1a72aa0468a78d53dbd443a6e204a9c = L.circleMarker(
+                [14.69, -91.2],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_4e25c75f317d343302b306d7f1f6f387 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c81932d7eb46fdc52da252d43a2cb7fc = $(`<div id="html_c81932d7eb46fdc52da252d43a2cb7fc" style="width: 100.0%; height: 100.0%;">Atitlan - 2024-01-29 - Índice: 44.55</div>`)[0];
+                popup_4e25c75f317d343302b306d7f1f6f387.setContent(html_c81932d7eb46fdc52da252d43a2cb7fc);
+            
+        
+
+        circle_marker_d1a72aa0468a78d53dbd443a6e204a9c.bindPopup(popup_4e25c75f317d343302b306d7f1f6f387)
+        ;
+
+        
+    
+    
+            var circle_marker_d5954be801c74c785049a200c7c0cd7a = L.circleMarker(
+                [14.69, -91.2],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_bea32753ddb3ca594423857b8d8f6652 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98cddce5e6d884e12dceca94761186ee = $(`<div id="html_98cddce5e6d884e12dceca94761186ee" style="width: 100.0%; height: 100.0%;">Atitlan - 2024-02-08 - Índice: 34.52</div>`)[0];
+                popup_bea32753ddb3ca594423857b8d8f6652.setContent(html_98cddce5e6d884e12dceca94761186ee);
+            
+        
+
+        circle_marker_d5954be801c74c785049a200c7c0cd7a.bindPopup(popup_bea32753ddb3ca594423857b8d8f6652)
+        ;
+
+        
+    
+    
+            var circle_marker_640d945f09b3963a3b1e3ff00016ab85 = L.circleMarker(
+                [14.69, -91.2],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_69dbad8b459ec283fadf2a475f963081 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44dd81cfe45bd84500137e3705a0a74e = $(`<div id="html_44dd81cfe45bd84500137e3705a0a74e" style="width: 100.0%; height: 100.0%;">Atitlan - 2024-02-28 - Índice: 40.89</div>`)[0];
+                popup_69dbad8b459ec283fadf2a475f963081.setContent(html_44dd81cfe45bd84500137e3705a0a74e);
+            
+        
+
+        circle_marker_640d945f09b3963a3b1e3ff00016ab85.bindPopup(popup_69dbad8b459ec283fadf2a475f963081)
+        ;
+
+        
+    
+    
+            var circle_marker_d02130506959e058b8e487005e02664a = L.circleMarker(
+                [14.69, -91.2],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_8bd5347df0b8bf2ac3dc692f179df8cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e90cb90e52b895da9a1e95332c703fa = $(`<div id="html_8e90cb90e52b895da9a1e95332c703fa" style="width: 100.0%; height: 100.0%;">Atitlan - 2024-03-04 - Índice: 78.11</div>`)[0];
+                popup_8bd5347df0b8bf2ac3dc692f179df8cc.setContent(html_8e90cb90e52b895da9a1e95332c703fa);
+            
+        
+
+        circle_marker_d02130506959e058b8e487005e02664a.bindPopup(popup_8bd5347df0b8bf2ac3dc692f179df8cc)
+        ;
+
+        
+    
+    
+            var circle_marker_156ad1b298914955c5ce3d2c4ca73b7e = L.circleMarker(
+                [14.69, -91.2],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_23ab3b3e75bd4d4bb2a461136b416485 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb0a805a055c734debffd4cf00ad1992 = $(`<div id="html_cb0a805a055c734debffd4cf00ad1992" style="width: 100.0%; height: 100.0%;">Atitlan - 2024-03-29 - Índice: 50.34</div>`)[0];
+                popup_23ab3b3e75bd4d4bb2a461136b416485.setContent(html_cb0a805a055c734debffd4cf00ad1992);
+            
+        
+
+        circle_marker_156ad1b298914955c5ce3d2c4ca73b7e.bindPopup(popup_23ab3b3e75bd4d4bb2a461136b416485)
+        ;
+
+        
+    
+    
+            var circle_marker_1b233bb49fc7b020a900819c27cea591 = L.circleMarker(
+                [14.69, -91.2],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_21a5fefa4ed42fae352cbbf72853370a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b020e59b4f6413d86865c6b953f79f4d = $(`<div id="html_b020e59b4f6413d86865c6b953f79f4d" style="width: 100.0%; height: 100.0%;">Atitlan - 2024-04-03 - Índice: 119.59</div>`)[0];
+                popup_21a5fefa4ed42fae352cbbf72853370a.setContent(html_b020e59b4f6413d86865c6b953f79f4d);
+            
+        
+
+        circle_marker_1b233bb49fc7b020a900819c27cea591.bindPopup(popup_21a5fefa4ed42fae352cbbf72853370a)
+        ;
+
+        
+    
+    
+            var circle_marker_7973ff4fefaac08bcba3ebd6b0d207fb = L.circleMarker(
+                [14.69, -91.2],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_6c10bb149ebccb3c0ef54d155fc70cb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d513d8a1f9317118b69963c6681f80f3 = $(`<div id="html_d513d8a1f9317118b69963c6681f80f3" style="width: 100.0%; height: 100.0%;">Atitlan - 2024-04-23 - Índice: 99.31</div>`)[0];
+                popup_6c10bb149ebccb3c0ef54d155fc70cb6.setContent(html_d513d8a1f9317118b69963c6681f80f3);
+            
+        
+
+        circle_marker_7973ff4fefaac08bcba3ebd6b0d207fb.bindPopup(popup_6c10bb149ebccb3c0ef54d155fc70cb6)
+        ;
+
+        
+    
+    
+            var circle_marker_6fa70280f2ee6a30326bb11df1f8952d = L.circleMarker(
+                [14.69, -91.2],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_144d732b9a0d5697515cb3b4d462b6a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f20d306956f27ce0c20b20962b448e5 = $(`<div id="html_2f20d306956f27ce0c20b20962b448e5" style="width: 100.0%; height: 100.0%;">Atitlan - 2024-05-03 - Índice: 89.84</div>`)[0];
+                popup_144d732b9a0d5697515cb3b4d462b6a2.setContent(html_2f20d306956f27ce0c20b20962b448e5);
+            
+        
+
+        circle_marker_6fa70280f2ee6a30326bb11df1f8952d.bindPopup(popup_144d732b9a0d5697515cb3b4d462b6a2)
+        ;
+
+        
+    
+    
+            var circle_marker_7c8acf28d009acad1ee9dc5a5f4c2c36 = L.circleMarker(
+                [14.69, -91.2],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_98e72d03f1b3dfb442d85a1028c17a5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb0b7e93b65a6b9cc3fdc8e2ebd30923 = $(`<div id="html_fb0b7e93b65a6b9cc3fdc8e2ebd30923" style="width: 100.0%; height: 100.0%;">Atitlan - 2024-05-23 - Índice: 139.51</div>`)[0];
+                popup_98e72d03f1b3dfb442d85a1028c17a5a.setContent(html_fb0b7e93b65a6b9cc3fdc8e2ebd30923);
+            
+        
+
+        circle_marker_7c8acf28d009acad1ee9dc5a5f4c2c36.bindPopup(popup_98e72d03f1b3dfb442d85a1028c17a5a)
+        ;
+
+        
+    
+    
+            var circle_marker_9070a13cd3556b3b4626b496d99a71dc = L.circleMarker(
+                [14.69, -91.2],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_8229b1e4ca01ecebc4a7e2e5f975cf71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01c3ded4fefabf60f111dfa2c5bdbe13 = $(`<div id="html_01c3ded4fefabf60f111dfa2c5bdbe13" style="width: 100.0%; height: 100.0%;">Atitlan - 2024-06-02 - Índice: 91.65</div>`)[0];
+                popup_8229b1e4ca01ecebc4a7e2e5f975cf71.setContent(html_01c3ded4fefabf60f111dfa2c5bdbe13);
+            
+        
+
+        circle_marker_9070a13cd3556b3b4626b496d99a71dc.bindPopup(popup_8229b1e4ca01ecebc4a7e2e5f975cf71)
+        ;
+
+        
+    
+    
+            var circle_marker_436532401c6acb25d8a910e6cfa8957f = L.circleMarker(
+                [14.69, -91.2],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_87b55a1e1f0027aad9cf15ba297244ef);
+        
+    
+        var popup_71ce32535f8f4864d7876e9dbd6e6c14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0120eb58c9486c8d507ea335fded94a = $(`<div id="html_d0120eb58c9486c8d507ea335fded94a" style="width: 100.0%; height: 100.0%;">Atitlan - 2024-06-22 - Índice: 99.02</div>`)[0];
+                popup_71ce32535f8f4864d7876e9dbd6e6c14.setContent(html_d0120eb58c9486c8d507ea335fded94a);
+            
+        
+
+        circle_marker_436532401c6acb25d8a910e6cfa8957f.bindPopup(popup_71ce32535f8f4864d7876e9dbd6e6c14)
+        ;
+
+        
+    
+</script>
+</html>
