@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import rasterio
 import matplotlib.pyplot as plt
@@ -155,6 +156,8 @@ for lago in df_hibrido["Lago"].unique():
     plt.title(f"Matriz de Confusión Híbrido - {lago}")
     plt.show()
 
+from IPython.display import display
+
 # 14. MAPA CON FOLIUM
 coordenadas = {
     "Amatitlan": (14.4789, -90.6061),
@@ -162,6 +165,7 @@ coordenadas = {
 }
 
 mapa = folium.Map(location=[14.6, -90.9], zoom_start=8)
+display(mapa)
 
 for _, fila in df_hibrido.iterrows():
     lat, lon = coordenadas[fila["Lago"]]
